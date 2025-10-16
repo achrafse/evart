@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b0b0b"/>
+      <stop offset="60%" stop-color="#111"/>
+      <stop offset="100%" stop-color="#0b0b0b"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="75%" cy="25%" r="40%">
+      <stop offset="0%" stop-color="#c7a86f" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#c7a86f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#spot)"/>
+  <g fill="#f1efe8" font-family="'Playfair Display', Georgia, serif">
+    <text x="80" y="210" font-size="84" font-weight="600">Maison EVART</text>
+  </g>
+  <g fill="#c7a86f" font-family="'Playfair Display', Georgia, serif">
+    <text x="80" y="300" font-size="64" font-style="italic">Haute Couture</text>
+  </g>
+  <g fill="#cfc9bd" font-family="Inter, Arial, sans-serif" letter-spacing="2">
+    <text x="80" y="375" font-size="28">Ecommerce — Coming Soon</text>
+  </g>
+</svg>
